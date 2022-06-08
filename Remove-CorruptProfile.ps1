@@ -1,4 +1,4 @@
-#powershell script
+
 
 function corruptProfile {
 
@@ -28,10 +28,8 @@ if($BakPath -eq $null){
         Start-Sleep 1
         Write-host "Removed Corrupt Profile" -ForegroundColor green
 
-           
         }
 
 }
 cls
 corruptProfile
-
